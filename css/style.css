@@ -1,0 +1,28 @@
+.test {
+	height: 100px;
+	
+}
+.navbar {
+	height: 80px;
+	background-color: #28c9c4;
+	/*line-height: 80px;*/
+}
+aside {
+	min-height: 200px;
+	background-color: #8df2ef;
+}
+article {
+	min-height: 600px;
+	background-color: #56e3de;
+}
+footer {
+	height: 160px;
+	background-color: #28c9c4;
+}
+.link {
+	text-decoration: none;
+	color: #eee;
+	font-size: 1.2em;
+	width: 130px; 
+	text-align: center;
+}

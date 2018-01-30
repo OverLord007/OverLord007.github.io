@@ -1,0 +1,112 @@
+/* Page styles */
+
+html, body {
+    margin: 0;
+}
+
+/* Basic containers */
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+.wrapper-large {
+    width: 1200px;
+}
+
+/* Flex components */
+
+.row {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* Horizontal alignmen */
+
+.flex-left {
+    justify-content: flex-start;
+}
+.flex-right {
+    justify-content: flex-end;    
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-around {
+    justify-content: space-around;
+}
+.flex-between {
+    justify-content: space-between;
+}
+
+/* Vertical alignment */
+.vertical-top {
+    align-items: flex-start;
+}
+.vertical-bottom {
+    align-items: flex-end;
+}
+.vertical-middle {
+    align-items: center;
+}
+.vertical-between {
+    align-content: stretch;
+}
+
+/* Blocks width styles */
+.width-1-12 {
+    /* 60px + 20px = 80px */
+    width: 8.33333333333%;
+}
+.width-2-12, .width-1-6 {
+    /* 140px + 20px = 160px */
+    width: 16.6666666667%;
+}
+.width-3-12, .width-1-4 {
+    /* 220px + 20px = 240px */
+    width: 25%;
+}
+.width-4-12, .width-2-6, .width-1-3 {
+    /* 300px + 20px = 320px */
+    width: 33.3333333333%;
+}
+.width-5-12 {
+    /* 380px + 20px = 400px */
+    width: 41.6666666667%;
+}
+.width-6-12, .width-1-2, .width-2-4, .width-3-6 {
+    /* 460px + 20px = 480px */
+    width: 50%;
+}
+.width-7-12 {
+    /* 540px + 20px = 560px */
+    width: 58.3333333333%;
+}
+.width-8-12, .width-4-6, .width-2-3 {
+    /* 620px + 20px = 640px */
+    width: 66.6666666667%;
+}
+.width-9-12, .width-3-4 {
+    /* 700px + 20px = 720px */
+    width: 75%;
+}
+.width-10-12, .width-5-6 {
+    /* 780px + 20px = 800px */
+    width: 83.3333333333%;
+}
+.width-11-12 {
+    /* 860px + 20px = 880px */
+    width: 91.6666666667%;
+}
+.width-1-1, .width-12-12, .width-4-4, .width-6-6, .width-3-3 {
+    /* 940px + 20px = 960px */
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+@font-face {
+	font-family: PixelFont;
+	src: url(PressStart2P-Regular.ttf);
+}
+
+html {
+	background-image: url('img/jbg.gif');
+	background-size: 100%, 100%;
+	font-family: PixelFont;
+	text-shadow: 2px 2.5px 3.5px black;
+	color: white;
+}
+
+nav, footer {
+	color: #a4a4f4;
+	background: #141444;
+	font-size: 0.6em;
+}
+
+header, aside {
+	color: #a4a4f4;
+	background: #242454;
+}
+
+section{
+	color: #a4a4f4;
+	background: #444474;
+}
+
+article {
+	color: #a4a4f4;
+	background: #343464;
+}
+
+h1, h2,h3, p {
+	margin: 0px 0px;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
